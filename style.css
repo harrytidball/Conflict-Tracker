@@ -1,0 +1,28 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       #map {
+        height: 100%;
+      }
+      
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'segoe ui';
+      }
+
+      ul {
+        list-style-type: none;
+      }
+
+      #box-title {
+        font-size: 19px;
+        text-align: center;
+      }
+
+      #box-content {
+        font-size: 17px;
+        text-align: center;
+      }
