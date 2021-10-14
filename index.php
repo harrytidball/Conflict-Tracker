@@ -1,5 +1,8 @@
 <?php
 
+$command = escapeshellcmd('acled-api.py');
+$output = shell_exec($command);
+
 $lat = file("text-files/lat.txt");
 $lng = file("text-files/lng.txt");
 $date = file("text-files/date.txt");
